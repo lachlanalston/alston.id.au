@@ -55,8 +55,13 @@ University of Technology Sydney
 ## Certifications
 
 - **Microsoft 365 Fundamentals (MS-900)**  
-  Issued: April 2024
-
+  Issued: April 2024**
+- ** 3CX: Advanced
+  Issued: June 2024
+- **Yealink Senior Certified IP Phone Engineer**
+  Issued: March 2025**
+- **AvePoint Certified Technical Professional - Cloud Backup for M365**
+  Issued: January 2025 **
 ---
 
 ## Contact
