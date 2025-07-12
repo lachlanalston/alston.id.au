@@ -1,8 +1,8 @@
 ---
-title: Lachlan Alston – IT Professional & FOSS Advocate
+title: Lachlan Alston
 ---
 
-**IT Professional**
+**IT Professional**  
 **FOSS & Suckless Advocate**  
 **Network & VoIP Specialist**
 
@@ -46,16 +46,17 @@ University of Technology Sydney
 
 - **Microsoft 365 Fundamentals (MS-900)**  
   Issued: April 2024
-- **3CX: Advanced**
+- **3CX: Advanced**  
   Issued: June 2024
-- **Yealink Senior Certified IP Phone Engineer**
+- **Yealink Senior Certified IP Phone Engineer**  
   Issued: March 2025
-- **AvePoint Certified Technical Professional: Cloud Backup for M365**
+- **AvePoint Certified Technical Professional: Cloud Backup for M365**  
   Issued: January 2025
-- **N-central Certified**
+- **N-central Certified**  
   Issued: November 2024
-- **DUO Security: Certified Duo Help Desk Administrator**
+- **DUO Security: Certified Duo Help Desk Administrator**  
   Issued: August 2024
+
 ## Contact
 
 Feel free to reach out for collaboration or job opportunities!
