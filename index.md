@@ -1,12 +1,15 @@
 ---
-title: Lachlan Alston
+title: Lachlan Alston – IT Professional & FOSS Advocate
 ---
 
-**IT Professional**  
-**FOSS & Suckless Advocate**  
-**Network & VoIP Specialist**
+**FOSS & Suckless Advocate · IT Professional · Network & VoIP Specialist**  
+*Bachelor of Science in IT – University of Technology Sydney*  
+*3+ years of experience in the IT industry*
 
-[lachlan@alston.id.au](mailto:lachlan@alston.id.au)
+📧 [lachlan@alston.id.au](mailto:lachlan@alston.id.au)  
+🔗 [GitHub](https://github.com/lachlanalston)
+
+---
 
 ## About Me
 
