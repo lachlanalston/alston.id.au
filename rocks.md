@@ -2,10 +2,9 @@
 title: Software that Rocks
 ---
 
-# Recommended Software
+# Software that Rocks
 
-Here are some of the best software tools for editing PDFs and other common tasks.  
-Each tool works across **Linux**, **macOS**, and **Windows** where noted.
+Open source software that rocks. Proprietary tools are included only when they're exceptional.
 
 ---
 
@@ -19,8 +18,24 @@ Each tool works across **Linux**, **macOS**, and **Windows** where noted.
 
 ---
 
+## Notes & Writing
+
+| Name | Description | Platforms | License |
+|------|-------------|-----------|---------|
+| [Zettlr](https://github.com/Zettlr/Zettlr) | Markdown editor and personal knowledge management | Linux, macOS, Windows | GPL-3.0 |
+
+---
+
+## Dev & Troubleshooting
+
+| Name | Description | Platforms | License |
+|------|-------------|-----------|---------|
+| [Bruno](https://github.com/usebruno/bruno) | Offline-first API client (Postman alternative) | Linux, macOS, Windows | MIT |
+
+---
+
 ## Notes
 
-- Only cross-platform tools are listed unless otherwise specified.
-- Free and open source is preferred, but proprietary tools are included if they are exceptional.
-- This list is curated for reliability, simplicity, and minimalism.
+- Cross-platform tools only, unless otherwise noted.
+- Free and open source preferred. Proprietary included when exceptional.
+- Curated for reliability, simplicity, and minimalism.
