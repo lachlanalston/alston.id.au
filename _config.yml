@@ -1,4 +1,5 @@
 title: alston.id.au
+description: "Lachlan Alston — IT technician, FOSS advocate, suckless enthusiast."
 permalink: /posts/:title/
 
 defaults:

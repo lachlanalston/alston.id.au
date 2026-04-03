@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | truncate: 160 }}">
   <title>{% if page.date %}{{ page.title }} – {{ site.title }}{% else %}{{ page.title | default: site.title }}{% endif %}</title>
   <style>
     :root {
@@ -214,7 +215,7 @@
 
     {% if page.date %}
     <div class="post-nav">
-      <a href="/posts">← all posts</a>
+      <a href="{{ '/posts' | relative_url }}">← all posts</a>
     </div>
     {% endif %}
   </main>
