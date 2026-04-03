@@ -5,7 +5,10 @@ title: Software that Rocks
 # Software that Rocks
 
 Open source software that rocks. Proprietary tools are included only when they're exceptional.
-[//]: # Need to add Nextcloud &  
+<!-- Need to add Nextcloud
+
+ -->
+
 ---
 
 ## PDF Editors
