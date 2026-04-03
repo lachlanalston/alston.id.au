@@ -1,2 +1,10 @@
 title: alston.id.au
-theme: jekyll-theme-cayman
+permalink: /posts/:title/
+
+nav:
+  - title: Home
+    url: /
+  - title: Posts
+    url: /posts
+  - title: Rocks
+    url: /rocks
