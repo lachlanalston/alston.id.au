@@ -3,14 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title | default: site.title }}</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <title>{% if page.date %}{{ page.title }} – {{ site.title }}{% else %}{{ page.title | default: site.title }}{% endif %}</title>
   <style>
     :root {
       --bg: #111;
-      --surface: #1a1a1a;
       --text: #e0e0e0;
       --text-mid: #aaa;
       --text-muted: #666;
@@ -20,15 +16,13 @@
       --border-strong: rgba(255, 255, 255, 0.12);
       --code-bg: #1e1e1e;
       --table-stripe: rgba(255, 255, 255, 0.02);
-      --tag-bg: #252525;
-      --tag-text: #999;
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
     body {
-      font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, sans-serif;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
       font-size: 16px;
       font-weight: 400;
       line-height: 1.7;
@@ -49,7 +43,6 @@
     }
 
     header .site-title {
-      font-family: 'JetBrains Mono', monospace;
       font-size: 0.95rem;
       font-weight: 500;
       color: var(--text);
@@ -60,7 +53,6 @@
     nav { display: flex; gap: 1.5rem; }
 
     nav a {
-      font-family: 'JetBrains Mono', monospace;
       font-size: 0.8rem;
       font-weight: 400;
       color: var(--text-muted);
@@ -77,7 +69,6 @@
     a:hover { color: var(--accent-hover); }
 
     h1 {
-      font-family: 'Source Sans 3', sans-serif;
       font-size: 1.75rem;
       font-weight: 600;
       letter-spacing: -0.03em;
@@ -86,7 +77,6 @@
     }
 
     h2 {
-      font-family: 'JetBrains Mono', monospace;
       font-size: 0.8rem;
       font-weight: 500;
       letter-spacing: 0.04em;
@@ -107,7 +97,6 @@
     hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
 
     code {
-      font-family: 'JetBrains Mono', monospace;
       font-size: 0.85em;
       background: var(--code-bg);
       padding: 0.15rem 0.45rem;
@@ -133,7 +122,6 @@
     }
 
     th {
-      font-family: 'JetBrains Mono', monospace;
       font-size: 0.7rem;
       font-weight: 500;
       text-transform: uppercase;
@@ -164,6 +152,20 @@
     strong { font-weight: 600; color: var(--text); }
     em { color: var(--text-muted); }
 
+    .post-header { margin-bottom: 2rem; }
+
+    .post-meta {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .post-nav {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border-strong);
+      font-size: 0.8rem;
+    }
+
     footer {
       margin-top: 4rem;
       padding-top: 1.5rem;
@@ -173,7 +175,6 @@
     }
 
     footer a {
-      font-family: 'JetBrains Mono', monospace;
       font-size: 0.75rem;
       color: var(--text-muted);
       text-decoration: none;
@@ -202,7 +203,20 @@
   </header>
 
   <main>
+    {% if page.date %}
+    <div class="post-header">
+      <h1>{{ page.title }}</h1>
+      <div class="post-meta">{{ page.date | date: "%d %B %Y" }}</div>
+    </div>
+    {% endif %}
+
     {{ content }}
+
+    {% if page.date %}
+    <div class="post-nav">
+      <a href="/posts">← all posts</a>
+    </div>
+    {% endif %}
   </main>
 
   <footer>

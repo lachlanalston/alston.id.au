@@ -1,6 +1,12 @@
 title: alston.id.au
 permalink: /posts/:title/
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
 nav:
   - title: Home
     url: /
