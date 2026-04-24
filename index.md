@@ -4,11 +4,9 @@ title: Lachlan Alston
 
 # Lachlan Alston
 
-Senior technician at an MSP, FOSS advocate, suckless enthusiast.
+Senior technician at an MSP — Windows infrastructure, 3CX, and the automation that makes it manageable. Fifteen years of Linux at home.
 
-I troubleshoot and maintain IT environments for a living, own 3CX deployments end-to-end, and spend too much time scripting things that could probably stay manual. I run Linux, self-host what I can, and believe in not overcomplicating things.
-
-This site is where I write about the things I'm researching, problems I've solved, and software I think is worth using.
+This site is where I write about problems I've solved and tools worth using.
 
 ---
 
